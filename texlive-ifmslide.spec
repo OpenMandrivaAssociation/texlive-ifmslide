@@ -1,3 +1,9 @@
+# revision 20727
+# category Package
+# catalog-ctan /macros/latex/contrib/ifmslide
+# catalog-date 2010-12-14 00:15:57 +0100
+# catalog-license lppl1.2
+# catalog-version 0.47
 Name:		texlive-ifmslide
 Version:	0.47
 Release:	1
@@ -68,6 +74,7 @@ manual describes all functions and provides a sample.
 %doc %{_texmfdistdir}/doc/latex/ifmslide/ifmman.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/ifmslide/genbutton
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -78,3 +85,5 @@ manual describes all functions and provides a sample.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
