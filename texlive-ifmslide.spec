@@ -75,3 +75,17 @@ manual describes all functions and provides a sample.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.47-2
++ Revision: 752692
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.47-1
++ Revision: 718698
+- texlive-ifmslide
+- texlive-ifmslide
+- texlive-ifmslide
+- texlive-ifmslide
+
