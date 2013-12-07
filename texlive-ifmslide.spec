@@ -6,7 +6,7 @@
 # catalog-version 0.47
 Name:		texlive-ifmslide
 Version:	0.47
-Release:	3
+Release:	4
 Summary:	Presentation slides for screen and printouts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifmslide
