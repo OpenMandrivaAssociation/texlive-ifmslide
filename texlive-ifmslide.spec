@@ -1,6 +1,6 @@
 Name:		texlive-ifmslide
 Version:	20727
-Release:	1
+Release:	2
 Summary:	Presentation slides for screen and printouts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ifmslide
